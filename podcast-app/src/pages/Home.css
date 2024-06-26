@@ -1,0 +1,42 @@
+.home {
+  padding: 20px;
+}
+
+.show-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.show-preview {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 300px;
+}
+
+.show-preview img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.show-preview h3 {
+  margin: 10px 0;
+}
+
+.show-preview p {
+  margin: 5px 0;
+}
+
+.show-preview .genres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.show-preview .genre {
+  background-color: #ddd;
+  padding: 2px 5px;
+  border-radius: 3px;
+}

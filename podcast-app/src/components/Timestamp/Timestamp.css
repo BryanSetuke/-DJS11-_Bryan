@@ -1,0 +1,10 @@
+.timestamp {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.timestamp span {
+  font-size: 0.9em;
+  color: #555;
+}

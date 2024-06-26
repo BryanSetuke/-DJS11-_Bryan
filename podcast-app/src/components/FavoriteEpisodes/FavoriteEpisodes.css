@@ -1,0 +1,9 @@
+.favorite-episodes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.favorite-episodes h2 {
+  margin-top: 0;
+}

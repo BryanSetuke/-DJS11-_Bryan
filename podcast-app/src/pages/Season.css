@@ -1,0 +1,35 @@
+.season {
+  padding: 20px;
+}
+
+.season h2 {
+  margin-bottom: 20px;
+}
+
+.episode-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.episode-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.episode-item h3 {
+  margin: 0;
+}
+
+.episode-item button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}

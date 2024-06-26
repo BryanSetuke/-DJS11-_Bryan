@@ -1,0 +1,15 @@
+.genre-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.genre-filter label {
+  margin: 0;
+}
+
+.genre-filter select {
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}

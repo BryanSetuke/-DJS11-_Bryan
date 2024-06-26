@@ -1,0 +1,21 @@
+.show-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.show-preview img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.show-preview h3 {
+  margin: 0;
+}
+
+.show-preview p {
+  margin: 0;
+}

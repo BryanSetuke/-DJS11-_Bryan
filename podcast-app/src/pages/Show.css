@@ -1,0 +1,54 @@
+.show {
+  padding: 20px;
+}
+
+.show h2 {
+  margin-bottom: 20px;
+}
+
+.show .show-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.show img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.show h3 {
+  margin: 10px 0;
+}
+
+.show p {
+  margin: 5px 0;
+}
+
+.show .seasons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.show .season-item {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.show .season-item h4 {
+  margin: 0;
+}
+
+.show .season-item button {
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
